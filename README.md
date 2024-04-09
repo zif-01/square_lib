@@ -13,7 +13,9 @@
 from geometry_library import circle_square
 
 radius = 5
+
 area = circle_square(radius)
+
 print("Площадь круга:", area)
 ---------------------------------------
 Вычисление площади треугольника
@@ -22,9 +24,13 @@ print("Площадь круга:", area)
 from geometry_library import triangle_square
 
 side1 = 3
+
 side2 = 4
+
 side3 = 5
+
 area = triangle_square(side1, side2, side3)
+
 print("Площадь треугольника:", area)
 ---------------------------------------------
 Определение типа фигуры и вычисление площади
@@ -33,7 +39,9 @@ print("Площадь треугольника:", area)
 from geometry_library import figure
 
 area = figure()
+
 print("Площадь фигуры:", area)
+
 -----------------------------------------------
 При вызове функции figure() пользователь должен ввести параметры фигуры через пробел. Для круга - радиус, для треугольника - длины трех сторон.
 Зависимости
